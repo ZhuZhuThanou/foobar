@@ -42,7 +42,7 @@
 	  				<goals>
 	  					<goal>exec</goal>
 	  				</goals>
-	  				<phase>generate-resources</phase>
+	  				<phase>validate</phase>
 	  				<configuration>
 	  					<executable>npm</executable>
 	  					<workingDirectory>${basedir}/src/main/web/ws/</workingDirectory>
